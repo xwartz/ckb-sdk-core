@@ -1068,17 +1068,16 @@
 
 "@nervosnetwork/ckb-sdk-rpc@git+https://github.com/xwartz/ckb-sdk-rpc.git":
   version "0.26.2"
-  resolved "git+https://github.com/xwartz/ckb-sdk-rpc.git#0b4fb066437427f57dc16b7773abd76ecbf1abb6"
+  resolved "git+https://github.com/xwartz/ckb-sdk-rpc.git#04be17c3ee6ff33ed2971698d8d10fbfad7c517c"
   dependencies:
     "@nervosnetwork/ckb-sdk-utils" "git+https://github.com/xwartz/ckb-sdk-utils.git"
     axios "0.19.0"
 
 "@nervosnetwork/ckb-sdk-utils@git+https://github.com/xwartz/ckb-sdk-utils.git":
   version "0.26.2"
-  resolved "git+https://github.com/xwartz/ckb-sdk-utils.git#bd2733bfab9b1b290616da5fac9f0541a0f5888d"
+  resolved "git+https://github.com/xwartz/ckb-sdk-utils.git#1db0bcf1776c81fd80777b3b89ce170cf67c7953"
   dependencies:
     "@nervosnetwork/ckb-types" "0.26.2"
-    blake2b-wasm "1.1.7"
     elliptic "6.5.1"
     jsbi "^3.1.1"
     nanoassert "^2.0.0"
@@ -1772,13 +1771,6 @@ bindings@^1.5.0:
   integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
   dependencies:
     file-uri-to-path "1.0.0"
-
-blake2b-wasm@1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/blake2b-wasm/-/blake2b-wasm-1.1.7.tgz#e4d075da10068e5d4c3ec1fb9accc4d186c55d81"
-  integrity sha512-oFIHvXhlz/DUgF0kq5B1CqxIDjIJwh9iDeUUGQUcvgiGz7Wdw03McEO7CfLBy7QKGdsydcMCgO9jFNBAFCtFcA==
-  dependencies:
-    nanoassert "^1.0.0"
 
 bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.5:
   version "3.7.2"
@@ -5474,11 +5466,6 @@ nan@^2.12.1:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
-
-nanoassert@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/nanoassert/-/nanoassert-1.1.0.tgz#4f3152e09540fde28c76f44b19bbcd1d5a42478d"
-  integrity sha1-TzFS4JVA/eKMdvRLGbvNHVpCR40=
 
 nanoassert@^2.0.0:
   version "2.0.0"
