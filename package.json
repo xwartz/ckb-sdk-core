@@ -25,7 +25,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "test": "../../node_modules/.bin/jest"
+    "test": "./node_modules/.bin/jest"
   },
   "bugs": {
     "url": "https://github.com/nervosnetwork/ckb-sdk-js/issues"
@@ -34,6 +34,28 @@
     "@nervosnetwork/ckb-sdk-rpc": "git+https://github.com/xwartz/ckb-sdk-rpc.git",
     "@nervosnetwork/ckb-sdk-utils": "git+https://github.com/xwartz/ckb-sdk-utils.git",
     "@nervosnetwork/ckb-types": "0.26.2"
+  },
+  "devDependencies": {
+    "@cryptape/sdk-ts-config": "0.0.1",
+    "@types/node": "12.12.6",
+    "@typescript-eslint/eslint-plugin": "2.6.1",
+    "@typescript-eslint/parser": "2.6.1",
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "dotenv": "8.2.0",
+    "eslint": "6.6.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "23.0.3",
+    "eslint-plugin-prettier": "3.1.1",
+    "husky": "3.0.9",
+    "jest": "24.9.0",
+    "lerna": "3.18.4",
+    "lint-staged": "9.4.2",
+    "prettier": "1.18.2",
+    "typedoc": "0.15.2",
+    "typescript": "3.7.2"
   },
   "gitHead": "499d0a148ef1b6fef10ccf49c57e76789d51f17b"
 }
